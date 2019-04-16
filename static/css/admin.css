@@ -1,0 +1,25 @@
+.sheet input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sheet textarea {
+  width: 100%;
+  height: 45vh;
+  resize: none;
+}
+
+.drag-and-drop {
+  position: relative;
+  height: 20rem;
+}
+.drag-and-drop::before {
+  content: "Arrastra Imagen";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  border: dotted 2px grey;
+}
